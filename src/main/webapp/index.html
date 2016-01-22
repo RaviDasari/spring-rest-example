@@ -1,0 +1,31 @@
+<html>
+    <body>
+        To use this application - there are two service calls..
+        
+        <ol>
+        <li>Get book that uses below url pattern
+        <br>
+        <code><pre>&lt;project url&gt;/rest/book/{id}</pre></code>
+        <br>
+        where id is book id.
+        <br><br>
+        </li>
+        
+        <li>
+            Add book - send POST request to below URL
+            <br>
+            <code><pre>&lt;project url&gt;/rest/book/add</pre></code>
+            <br>
+            with request body as below xml
+            
+            <pre>
+                &lt;book&gt;
+                    &lt;id&gt;2&lt;/id&gt;
+                    &lt;author&gt;Ravi Dasari&lt;/author&gt;
+                    &lt;title&gt;I didnt write this book ;)&lt;/title&gt;
+                &lt;/book&gt;
+            </pre>
+        </li>
+        </ol>
+    </body>
+</html>
